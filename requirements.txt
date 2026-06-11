@@ -1,0 +1,7 @@
+streamlit
+groq
+sentence-transformers
+numpy
+python-dotenv
+pypdf
+torchvision
