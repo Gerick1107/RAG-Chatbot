@@ -2,6 +2,8 @@ streamlit
 groq
 sentence-transformers
 numpy
+pandas
 python-dotenv
 pypdf
+reportlab
 torchvision
