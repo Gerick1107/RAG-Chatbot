@@ -129,7 +129,7 @@ def module_resume_screening():
           "Match %":r.get("match_score",0),
           "Top skills":", ".join(r.get("skills",[])[:5]),
           "File":r.get("_file")} for r in results],
-        use_container_width=True,
+        width='stretch',
         column_config={"Match %":st.column_config.ProgressColumn("Match %",min_value=0,max_value=100,format="%d%%")},
     )
     for r in results:
